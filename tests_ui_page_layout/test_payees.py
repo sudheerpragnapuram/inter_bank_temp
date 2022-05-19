@@ -154,6 +154,7 @@ def test_navigate_to_payees_page2(page):
     # Assert Home page
     expect(page.locator("span[class='js-main-menu-button-text'] span span:nth-child(1)")).to_be_visible()
     landing_page.menu_click()
+    # new Line
     # page.locator("span[class='js-main-menu-button-text'] span span:nth-child(1)").click()
 
     # Assert Payees Locator
